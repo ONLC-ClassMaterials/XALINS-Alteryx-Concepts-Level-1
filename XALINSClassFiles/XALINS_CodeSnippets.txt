@@ -73,24 +73,32 @@ ROUND(SQRT(tonumber([DataValue])),0.01)
 
 GetWord([Question],2)
 
-*** Expression #12(Fieldname: Pad_LocationID):
+*** Expression #12 (Fieldname: Pad_LocationID):
 
 PadLeft(ToString([LocationID]),2,'0')
 
-*** Expression #13(Fieldname: Question_Word_Count):
+*** Expression #13 (Fieldname: Question_Word_Count):
 
 CountWords([Question])
 
-*** Expression #14(Fieldname: TOB_SEQUENCE):
+*** Expression #14 (Fieldname: TOB_SEQUENCE):
 
 IF LEFT([QuestionID],3) = 'TOB' THEN
  Substring([QuestionID],3,1)
  ELSE "NA"
  ENDIF
  
-*** Expression #15(Fieldname: UPDATE_DATETIME):
+*** Expression #15 (Fieldname: UPDATE_DATETIME):
 
 DateTimeNow()
 
 
+*** Multi-Row Formula
 
+p. 95
+
+IF IsNull([DatavalueFootnote])
+ THEN [Row-1:DatavalueFootnote]
+ ELSE [DatavalueFootnote]
+ ENDIF
+ 
