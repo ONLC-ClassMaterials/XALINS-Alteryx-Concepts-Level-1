@@ -1,0 +1,57 @@
+* Chapter 3
+
+*** Filtering
+
+p. 63
+
+[Year] = 2014
+&&
+([CityName] = "Clearwater"
+OR [CityName] = "Fort Lauderdale")
+
+*** Join Multiple
+
+p. 69
+
+!IsNull([Year])
+&&
+[Population over 90,000?] = 'YES'
+&&([AverageAge] >= 51 && [AverageAge] <= 69)
+
+* Chapter 4
+
+*** Formula
+
+p. 77
+
+"U.S. CDI"
+
+***
+
+Uppercase([LocationDesc])
+
+***
+
+Contains([Topic],'Diabetes')
+
+***
+
+Length([Question])
+
+***
+
+IF [StratificationCategory1] = 'Overall' THEN 'Main Category'
+ ELSE 'Non-Main Category'
+ ENDIF
+
+***
+
+IF Contains([DataValueUnit],'%') &&
+ !IsNull([DataValue]) THEN [DataValue] + '%'
+ ELSE [DataValue]
+ ENDIF
+
+***
+
+Replace([DataValueTypeID], 'Nmbr', 'Number')
+
