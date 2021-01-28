@@ -55,3 +55,40 @@ IF Contains([DataValueUnit],'%') &&
 
 Replace([DataValueTypeID], 'Nmbr', 'Number')
 
+***
+
+StartsWith([LocationDesc], 'N')
+
+***
+
+FLOOR([LowConfidenceLimit])
+
+***
+
+ROUND(SQRT(tonumber([DataValue])),0.01)
+
+***
+
+GetWord([Question],2)
+
+***
+
+PadLeft(ToString([LocationID]),2,'0')
+
+***
+
+CountWords([Question])
+
+***
+
+IF LEFT([QuestionID],3) = 'TOB' THEN
+ Substring([QuestionID],3,1)
+ ELSE "NA"
+ ENDIF
+ 
+***
+
+DateTimeNow()
+
+***
+
