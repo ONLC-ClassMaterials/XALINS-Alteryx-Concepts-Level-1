@@ -518,7 +518,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>TransformingData</Name>
+      <Name>SummarizingAndAggregating</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
