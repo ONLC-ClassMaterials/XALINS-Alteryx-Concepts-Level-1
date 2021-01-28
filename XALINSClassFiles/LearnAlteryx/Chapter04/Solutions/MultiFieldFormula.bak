@@ -199,7 +199,7 @@ Contains Dia...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_26424_d6379a5d4b8d4c848d7bd7203d677bb7_\Engine_27004_cac9b056cb2d4f8ab085c8b86dfd928a_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_26732_2399139053e04788bf3e96bc6232bbec_\Engine_27004_a7276242057045bd877556fa652b5291_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -250,7 +250,7 @@ Contains Dia...</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_26424_d6379a5d4b8d4c848d7bd7203d677bb7_\Engine_27004_31ad64f1385b4dbfbd916bfadfe55d57_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_26732_2399139053e04788bf3e96bc6232bbec_\Engine_27004_727d470b15ff405bb2308d75b0fc2e02_.yxdb</TempFile>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -288,103 +288,11 @@ Contains Dia...</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="726" y="6" />
+        <Position x="714" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_26424_d6379a5d4b8d4c848d7bd7203d677bb7_\Engine_27004_9e1de474482d4f9bbda3ee2a7fca5b8d_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
-        <Position x="810" y="54" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FieldType>Text</FieldType>
-          <Fields orderChanged="False">
-            <Field name="LocationAbbr" />
-            <Field name="LocationDesc" />
-            <Field name="DataSource" selected="False" />
-            <Field name="Topic" selected="False" />
-            <Field name="Question" selected="False" />
-            <Field name="Response" selected="False" />
-            <Field name="DataValueUnit" selected="False" />
-            <Field name="DataValueType" selected="False" />
-            <Field name="DataValue" selected="False" />
-            <Field name="DataValueFootnoteSymbol" selected="False" />
-            <Field name="DatavalueFootnote" selected="False" />
-            <Field name="StratificationCategory1" selected="False" />
-            <Field name="Stratification1" selected="False" />
-            <Field name="StratificationCategory2" selected="False" />
-            <Field name="Stratification2" selected="False" />
-            <Field name="StratificationCategory3" selected="False" />
-            <Field name="Stratification3" selected="False" />
-            <Field name="GeoLocation" selected="False" />
-            <Field name="ResponseID" selected="False" />
-            <Field name="TopicID" selected="False" />
-            <Field name="QuestionID" selected="False" />
-            <Field name="DataValueTypeID" selected="False" />
-            <Field name="StratificationCategoryID1" selected="False" />
-            <Field name="StratificationID1" selected="False" />
-            <Field name="StratificationCategoryID2" selected="False" />
-            <Field name="StratificationID2" selected="False" />
-            <Field name="StratificationCategoryID3" selected="False" />
-            <Field name="StratificationID3" selected="False" />
-            <Field name="Data Source" selected="False" />
-            <Field name="Length Question" selected="False" />
-            <Field name="Category Type" selected="False" />
-            <Field name="DataValue %" selected="False" />
-            <Field name="N Locations" selected="False" />
-            <Field name="New_LCL" selected="False" />
-            <Field name="SQRT_DataValue" selected="False" />
-            <Field name="3rd_Question_Word" selected="False" />
-            <Field name="Pad_LocationID" selected="False" />
-            <Field name="Question_Word_Count" selected="False" />
-            <Field name="TOB_SEQUENCE" selected="False" />
-            <Field name="UPDATE_DATETIME" selected="False" />
-            <Field name="*Unknown" selected="False" />
-          </Fields>
-          <NewFieldAddOn>Uppercase_</NewFieldAddOn>
-          <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
-          <CopyOutput value="True" />
-          <Expression>UPPERCASE([_CurrentField_])</Expression>
-          <ChangeFieldType value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>UPPERCASE([_CurrentField_])</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
-    </Node>
-    <Node ToolID="10">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="906" y="54" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_26424_d6379a5d4b8d4c848d7bd7203d677bb7_\Engine_27004_fbde8edff3aa429eb158f7c9ea825c68_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_26732_2399139053e04788bf3e96bc6232bbec_\Engine_27004_8bc16331a9704067aafa717c03d1db32_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -435,14 +343,6 @@ Contains Dia...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="8" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="9" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="9" Connection="Output" />
-      <Destination ToolID="10" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
