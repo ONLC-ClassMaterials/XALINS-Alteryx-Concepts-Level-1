@@ -24,71 +24,72 @@ p. 69
 
 p. 77
 
+*** Expression #1 (Fieldname: Data Source):
+
 "U.S. CDI"
 
-***
+*** Expression #2 (Fieldname: LocationDesc):
 
 Uppercase([LocationDesc])
 
-***
+*** Expression #3 (Fieldname: Contains Diabetes?):
 
 Contains([Topic],'Diabetes')
 
-***
+*** Expression #4 (Fieldname: Length Diabetes):
 
 Length([Question])
 
-***
+*** Expression #5 (Fieldname: Category Type):
 
 IF [StratificationCategory1] = 'Overall' THEN 'Main Category'
  ELSE 'Non-Main Category'
  ENDIF
 
-***
+*** Expression #6 (Fieldname: DataValue %):
 
 IF Contains([DataValueUnit],'%') &&
  !IsNull([DataValue]) THEN [DataValue] + '%'
  ELSE [DataValue]
  ENDIF
 
-***
+*** Expression #7 (Fieldname: DataValueTypeID):
 
 Replace([DataValueTypeID], 'Nmbr', 'Number')
 
-***
+*** Expression #8 (Fieldname: N Locations):
 
 StartsWith([LocationDesc], 'N')
 
-***
+*** Expression #9 (Fieldname: New_LCL):
 
 FLOOR([LowConfidenceLimit])
 
-***
+*** Expression #10 (Fieldname: SQRT_DataValue):
 
 ROUND(SQRT(tonumber([DataValue])),0.01)
 
-***
+*** Expression #11 (Fieldname: 3rd_Question_Word):
 
 GetWord([Question],2)
 
-***
+*** Expression #12(Fieldname: Pad_LocationID):
 
 PadLeft(ToString([LocationID]),2,'0')
 
-***
+*** Expression #13(Fieldname: Question_Word_Count):
 
 CountWords([Question])
 
-***
+*** Expression #14(Fieldname: TOB_SEQUENCE):
 
 IF LEFT([QuestionID],3) = 'TOB' THEN
  Substring([QuestionID],3,1)
  ELSE "NA"
  ENDIF
  
-***
+*** Expression #15(Fieldname: UPDATE_DATETIME):
 
 DateTimeNow()
-
-***
+:
 
