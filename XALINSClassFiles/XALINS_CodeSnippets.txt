@@ -97,8 +97,14 @@ DateTimeNow()
 
 p. 95
 
+*** Expression #1 (Fieldname: DatavalueFootnote):
+
 IF IsNull([DatavalueFootnote])
  THEN [Row-1:DatavalueFootnote]
  ELSE [DatavalueFootnote]
  ENDIF
- 
+
+*** Expression #2 (Fieldname: RecordID):
+
+[Row-1:RecordID]+1
+
