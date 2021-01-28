@@ -116,3 +116,10 @@ p. 98
 *** Expression #1 (Fieldnames: Uppercase_LocationAbbr, Uppercase_LocationDesc):
 
 UPPERCASE([_CurrentField_])
+
+*** Transforming data
+
+
+p. 108
+
+IIF(IsNull([_CurrentField_]),0,[_CurrentField_])
