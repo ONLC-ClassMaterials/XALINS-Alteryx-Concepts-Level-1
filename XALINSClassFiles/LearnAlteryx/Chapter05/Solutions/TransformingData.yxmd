@@ -1,7 +1,493 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2020.4">
-  <Nodes />
-  <Connections />
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>U.S. Chronic Disease Indicators.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YearStart" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="YearEnd" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationAbbr" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationDesc" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataSource" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Topic" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Question" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Response" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueUnit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueType" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValue" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueAlt" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueFootnoteSymbol" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DatavalueFootnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LowConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="HighConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="GeoLocation" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="ResponseID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="TopicID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="QuestionID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueTypeID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="126" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="YearStart" selected="True" />
+            <Field field="YearEnd" selected="True" />
+            <Field field="LocationAbbr" selected="True" />
+            <Field field="LocationDesc" selected="True" />
+            <Field field="DataSource" selected="True" />
+            <Field field="Topic" selected="True" />
+            <Field field="Question" selected="True" />
+            <Field field="Response" selected="True" />
+            <Field field="DataValueUnit" selected="True" />
+            <Field field="DataValueType" selected="True" />
+            <Field field="DataValue" selected="True" />
+            <Field field="DataValueAlt" selected="True" />
+            <Field field="DataValueFootnoteSymbol" selected="True" />
+            <Field field="DatavalueFootnote" selected="True" />
+            <Field field="LowConfidenceLimit" selected="True" />
+            <Field field="HighConfidenceLimit" selected="True" />
+            <Field field="StratificationCategory1" selected="True" />
+            <Field field="Stratification1" selected="True" />
+            <Field field="StratificationCategory2" selected="True" />
+            <Field field="Stratification2" selected="True" />
+            <Field field="StratificationCategory3" selected="True" />
+            <Field field="Stratification3" selected="True" />
+            <Field field="GeoLocation" selected="True" />
+            <Field field="ResponseID" selected="True" />
+            <Field field="LocationID" selected="True" />
+            <Field field="TopicID" selected="True" />
+            <Field field="QuestionID" selected="True" />
+            <Field field="DataValueTypeID" selected="True" />
+            <Field field="StratificationCategoryID1" selected="True" />
+            <Field field="StratificationID1" selected="True" />
+            <Field field="StratificationCategoryID2" selected="True" />
+            <Field field="StratificationID2" selected="True" />
+            <Field field="StratificationCategoryID3" selected="True" />
+            <Field field="StratificationID3" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YearStart" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="Int16" />
+            <Field name="YearEnd" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="Int16" />
+            <Field name="LocationAbbr" size="2" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="LocationDesc" size="20" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataSource" size="54" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Topic" size="47" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Question" size="179" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Response" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="DataValueUnit" size="21" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueType" size="64" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValue" size="95" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueAlt" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="Double" />
+            <Field name="DataValueFootnoteSymbol" size="9" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DatavalueFootnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LowConfidenceLimit" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="Double" />
+            <Field name="HighConfidenceLimit" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="Double" />
+            <Field name="StratificationCategory1" size="14" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="Stratification1" size="32" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="Stratification2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationCategory3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="Stratification3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="GeoLocation" size="41" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="ResponseID" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="LocationID" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="Byte" />
+            <Field name="TopicID" size="4" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="QuestionID" size="9" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="DataValueTypeID" size="17" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID1" size="7" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationID1" size="4" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationCategoryID2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationID2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationCategoryID3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationID3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DataSource" selected="False" />
+            <SelectField field="DataValue" selected="True" />
+            <SelectField field="DataValueAlt" selected="False" />
+            <SelectField field="DatavalueFootnote" selected="False" />
+            <SelectField field="DataValueFootnoteSymbol" selected="False" />
+            <SelectField field="DataValueType" selected="False" />
+            <SelectField field="DataValueTypeID" selected="False" />
+            <SelectField field="DataValueUnit" selected="False" />
+            <SelectField field="GeoLocation" selected="False" />
+            <SelectField field="HighConfidenceLimit" selected="True" />
+            <SelectField field="LocationAbbr" selected="True" />
+            <SelectField field="LocationDesc" selected="False" />
+            <SelectField field="LocationID" selected="False" />
+            <SelectField field="LowConfidenceLimit" selected="True" />
+            <SelectField field="Question" selected="True" />
+            <SelectField field="QuestionID" selected="False" />
+            <SelectField field="Response" selected="False" />
+            <SelectField field="ResponseID" selected="False" />
+            <SelectField field="Stratification1" selected="False" />
+            <SelectField field="Stratification2" selected="False" />
+            <SelectField field="Stratification3" selected="False" />
+            <SelectField field="StratificationCategory1" selected="False" />
+            <SelectField field="StratificationCategory2" selected="False" />
+            <SelectField field="StratificationCategory3" selected="False" />
+            <SelectField field="StratificationCategoryID1" selected="False" />
+            <SelectField field="StratificationCategoryID2" selected="False" />
+            <SelectField field="StratificationCategoryID3" selected="False" />
+            <SelectField field="StratificationID1" selected="False" />
+            <SelectField field="StratificationID2" selected="False" />
+            <SelectField field="StratificationID3" selected="False" />
+            <SelectField field="Topic" selected="True" />
+            <SelectField field="TopicID" selected="False" />
+            <SelectField field="YearEnd" selected="True" />
+            <SelectField field="YearStart" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>YearEnd</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-01-27 23:11:16</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2021-01-27 23:11:16</StartDate>
+              <EndDate>2021-01-27 23:11:16</EndDate>
+              <Operand>2015</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[YearEnd] = "2015"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="438" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="LocationAbbr" />
+            <Field field="Question" />
+            <Field field="Topic" />
+            <Field field="YearEnd" />
+          </KeyFields>
+          <DataFields>
+            <Field field="DataValue" selected="True" />
+            <Field field="HighConfidenceLimit" selected="True" />
+            <Field field="LocationAbbr" selected="False" />
+            <Field field="LowConfidenceLimit" selected="True" />
+            <Field field="Question" selected="False" />
+            <Field field="Topic" selected="False" />
+            <Field field="YearEnd" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_27256_e41eb0a5c49b457abd244b9829f8a094_\Engine_27004_92ec61d84ecc41f8a5fed05bad5f24fa_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LocationAbbr" selected="True" />
+            <SelectField field="Topic" selected="True" />
+            <SelectField field="Question" selected="True" />
+            <SelectField field="DataValue" selected="True" />
+            <SelectField field="StratificationCategory1" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="318" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>LocationAbbr</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-01-27 23:15:38</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2021-01-27 23:15:38</StartDate>
+              <EndDate>2021-01-27 23:15:38</EndDate>
+              <Operand>FL</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[LocationAbbr] = "FL"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Topic" />
+            <Field field="Question" />
+          </GroupFields>
+          <HeaderField field="StratificationCategory1" />
+          <DataField field="DataValue" />
+          <Methods>
+            <Method method="First" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Topic" size="47" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Question" size="179" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Gender" size="95" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Overall" size="95" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Race_Ethnicity" size="95" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter05\U.S. Chronic Disease Indicators.csv" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Topic" order="Asc" />
+            <Field field="Question" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="534" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="Gender" />
+            <Field name="Overall" />
+            <Field name="Race_Ethnicity" />
+            <Field name="Topic" selected="False" />
+            <Field name="Question" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression />
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="String" size="179" scale="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_27256_e41eb0a5c49b457abd244b9829f8a094_\Engine_27004_a40983c91e6c402bbe30c920fc269afc_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
   <Properties>
     <Memory default="True" />
     <GlobalRecordLimit value="0" />
