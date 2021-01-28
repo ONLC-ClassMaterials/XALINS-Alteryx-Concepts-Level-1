@@ -222,7 +222,7 @@ Contains Dia...</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Formula</Name>
+      <Name>MultiRowFormula</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
