@@ -363,7 +363,7 @@ Contains Dia...</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>MultiRowFormula</Name>
+      <Name>MultiFieldFormula</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
