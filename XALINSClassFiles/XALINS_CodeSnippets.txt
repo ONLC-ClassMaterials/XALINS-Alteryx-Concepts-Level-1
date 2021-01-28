@@ -108,3 +108,11 @@ IF IsNull([DatavalueFootnote])
 
 [Row-1:RecordID]+1
 
+
+*** Multi-Field Formula
+
+p. 98
+
+*** Expression #1 (Fieldnames: Uppercase_LocationAbbr, Uppercase_LocationDesc):
+
+UPPERCASE([_CurrentField_])
