@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="30" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -27,9 +27,6 @@
           <DefaultAnnotationText>U.S. Chronic Disease Indicators.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="YearStart" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter04\U.S. Chronic Disease Indicators.csv" type="V_String" />
@@ -73,7 +70,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="114" y="30" />
+        <Position x="126" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,21 +160,34 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="222" y="30" />
+        <Position x="234" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
             <FormulaField expression="&quot;U.S. CDI&quot;" field="Data Source" size="1073741823" type="V_WString" />
             <FormulaField expression=" Uppercase([LocationDesc])&#xA;" field="LocationDesc" size="20" type="V_String" />
+            <FormulaField expression="Contains([Topic],'Diabetes')&#xA;" field="Contains Diabetes?" size="1" type="Bool" />
+            <FormulaField expression="Length([Question])&#xA;" field="Length Diabetes" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [StratificationCategory1] = 'Overall' THEN 'Main Category'&#xA; ELSE 'Non-Main Category'&#xA; ENDIF" field="Category Type" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF Contains([DataValueUnit],'%') &amp;&amp;&#xA; !IsNull([DataValue]) THEN [DataValue] + '%'&#xA; ELSE [DataValue]&#xA; ENDIF" field="DataValue %" size="1073741823" type="V_WString" />
+            <FormulaField expression="Replace([DataValueTypeID], 'Nmbr', 'Number')&#xA;" field="DataValueTypeID" size="17" type="V_String" />
+            <FormulaField expression="StartsWith([LocationDesc], 'N')&#xA;" field="N Locations" size="1073741823" type="V_WString" />
+            <FormulaField expression="FLOOR([LowConfidenceLimit])&#xA;" field="New_LCL" size="1073741823" type="V_WString" />
+            <FormulaField expression="ROUND(SQRT(tonumber([DataValue])),0.01)&#xA;" field="SQRT_DataValue" size="1073741823" type="V_WString" />
+            <FormulaField expression="GetWord([Question],2)&#xA;" field="3rd_Question_Word" size="1073741823" type="V_WString" />
+            <FormulaField expression="PadLeft(ToString([LocationID]),2,'0')&#xA;" field="Pad_LocationID" size="1073741823" type="V_WString" />
+            <FormulaField expression="CountWords([Question])&#xA;" field="Question_Word_Count" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF LEFT([QuestionID],3) = 'TOB' THEN&#xA; Substring([QuestionID],3,1)&#xA; ELSE &quot;NA&quot;&#xA; ENDIF" field="TOB_SEQUENCE" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeNow()" field="UPDATE_DATETIME" size="1073741823" type="V_WString" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText><![CDATA[Data Source = "U.S. CDI"
+          <DefaultAnnotationText>Data Source = "U.S. CDI"
 LocationDesc =  Uppercase([LocationDesc])
 
-]]></DefaultAnnotationText>
+Contains Dia...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>

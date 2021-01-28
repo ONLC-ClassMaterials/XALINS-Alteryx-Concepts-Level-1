@@ -36,7 +36,7 @@ Uppercase([LocationDesc])
 
 Contains([Topic],'Diabetes')
 
-*** Expression #4 (Fieldname: Length Diabetes):
+*** Expression #4 (Fieldname: Length Question):
 
 Length([Question])
 
