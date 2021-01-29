@@ -123,3 +123,52 @@ UPPERCASE([_CurrentField_])
 p. 108
 
 IIF(IsNull([_CurrentField_]),0,[_CurrentField_])
+
+
+* Chapter 6
+
+*** Text to columns
+
+p. 126
+
+Trim(Replace([GeoLocation1], "(", ""))
+
+Trim(Replace([GeoLocation2], ")", ""))
+
+*** Converting strings to dates and dates to strings
+
+p. 133
+
+[QuestionID] IN
+ (
+ 'CVD9_1',
+ 'NPAW10_0',
+ 'AST4_1',
+ 'ART2_0',
+ 'CVD1_2'
+ )
+
+
+*** Regular expressions
+
+p. 140
+
+.*_\d{1}
+
+
+* Chapter 7
+
+*** Data Table
+
+p. 151
+
+[QuestionID] = "DIA10_0" && !IsNull ([DataValueAlt])
+
+* Chapter 8
+
+*** Standard Macro
+
+p. 180
+
+[Number]*0.50
+
