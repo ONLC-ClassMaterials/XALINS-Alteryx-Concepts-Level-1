@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>U.S. Chronic Disease Indicators.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YearStart" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="YearEnd" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationAbbr" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationDesc" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataSource" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Topic" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Question" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Response" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueUnit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueType" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValue" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueAlt" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueFootnoteSymbol" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DatavalueFootnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LowConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="HighConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="GeoLocation" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="ResponseID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="TopicID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="QuestionID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueTypeID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DataTable</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

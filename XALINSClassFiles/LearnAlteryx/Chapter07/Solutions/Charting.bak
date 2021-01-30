@@ -1,0 +1,1383 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>U.S. Chronic Disease Indicators.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YearStart" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="YearEnd" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationAbbr" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationDesc" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataSource" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Topic" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Question" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Response" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueUnit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueType" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValue" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueAlt" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueFootnoteSymbol" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DatavalueFootnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LowConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="HighConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Stratification3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="GeoLocation" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="ResponseID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LocationID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="TopicID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="QuestionID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueTypeID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="162" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="YearStart" selected="True" />
+            <Field field="YearEnd" selected="True" />
+            <Field field="LocationAbbr" selected="True" />
+            <Field field="LocationDesc" selected="True" />
+            <Field field="DataSource" selected="True" />
+            <Field field="Topic" selected="True" />
+            <Field field="Question" selected="True" />
+            <Field field="Response" selected="True" />
+            <Field field="DataValueUnit" selected="True" />
+            <Field field="DataValueType" selected="True" />
+            <Field field="DataValue" selected="True" />
+            <Field field="DataValueAlt" selected="True" />
+            <Field field="DataValueFootnoteSymbol" selected="True" />
+            <Field field="DatavalueFootnote" selected="True" />
+            <Field field="LowConfidenceLimit" selected="True" />
+            <Field field="HighConfidenceLimit" selected="True" />
+            <Field field="StratificationCategory1" selected="True" />
+            <Field field="Stratification1" selected="True" />
+            <Field field="StratificationCategory2" selected="True" />
+            <Field field="Stratification2" selected="True" />
+            <Field field="StratificationCategory3" selected="True" />
+            <Field field="Stratification3" selected="True" />
+            <Field field="GeoLocation" selected="True" />
+            <Field field="ResponseID" selected="True" />
+            <Field field="LocationID" selected="True" />
+            <Field field="TopicID" selected="True" />
+            <Field field="QuestionID" selected="True" />
+            <Field field="DataValueTypeID" selected="True" />
+            <Field field="StratificationCategoryID1" selected="True" />
+            <Field field="StratificationID1" selected="True" />
+            <Field field="StratificationCategoryID2" selected="True" />
+            <Field field="StratificationID2" selected="True" />
+            <Field field="StratificationCategoryID3" selected="True" />
+            <Field field="StratificationID3" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="YearStart" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="Int16" />
+            <Field name="YearEnd" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="Int16" />
+            <Field name="LocationAbbr" size="2" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="LocationDesc" size="20" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataSource" size="54" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Topic" size="47" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Question" size="179" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="Response" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="DataValueUnit" size="21" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueType" size="64" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValue" size="95" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DataValueAlt" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="Double" />
+            <Field name="DataValueFootnoteSymbol" size="9" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="DatavalueFootnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="LowConfidenceLimit" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="Double" />
+            <Field name="HighConfidenceLimit" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="Double" />
+            <Field name="StratificationCategory1" size="14" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="Stratification1" size="32" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategory2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="Stratification2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationCategory3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="Stratification3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="GeoLocation" size="41" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="ResponseID" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="LocationID" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="Byte" />
+            <Field name="TopicID" size="4" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="QuestionID" size="9" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="DataValueTypeID" size="17" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="V_String" />
+            <Field name="StratificationCategoryID1" size="7" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationID1" size="4" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationCategoryID2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationID2" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationCategoryID3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+            <Field name="StratificationID3" size="1" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter07\U.S. Chronic Disease Indicators.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="270" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>LocationAbbr</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-01-29 22:35:21</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2021-01-29 22:35:21</StartDate>
+              <EndDate>2021-01-29 22:35:21</EndDate>
+              <Operand>FL</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[LocationAbbr] = "FL"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="YearEnd" selected="True" />
+            <SelectField field="LocationAbbr" selected="True" />
+            <SelectField field="Topic" selected="True" />
+            <SelectField field="Question" selected="True" />
+            <SelectField field="DataValueAlt" selected="True" />
+            <SelectField field="QuestionID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="LocationAbbr" action="GroupBy" rename="Location" />
+            <SummarizeField field="Topic" action="GroupBy" rename="Topic" />
+            <SummarizeField field="DataValueAlt" action="AvgNo0" rename="Average Data Value" />
+            <SummarizeField field="QuestionID" action="CountDistinct" rename="Distinct Count of QuestionID" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="642" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Location" selected="True" Alignment="Left" />
+            <Field name="Topic" selected="True" Alignment="Left" />
+            <Field name="Average Data Value" selected="True" Alignment="Right" />
+            <Field name="Distinct Count of QuestionID" selected="True" Alignment="Right" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_28056_ee3951d73f084545a5673ae81d4db45b_\Engine_19168_a5ea4c8421e747f19d70b58bfce78193_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="126" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[QuestionID] = "DIA10_0" 
+	&amp;&amp; !IsNull ([DataValueAlt])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[QuestionID] = "DIA10_0" 
+	&amp;&amp; !IsNull ([DataValueAlt])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="YearEnd" selected="True" />
+            <SelectField field="LocationAbbr" selected="True" />
+            <SelectField field="Topic" selected="True" />
+            <SelectField field="Question" selected="True" />
+            <SelectField field="DataValueAlt" selected="True" />
+            <SelectField field="QuestionID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="LocationAbbr" action="GroupBy" rename="Location" />
+            <SummarizeField field="Topic" action="GroupBy" rename="Topic" />
+            <SummarizeField field="Question" action="GroupBy" rename="Question" />
+            <SummarizeField field="DataValueAlt" action="AvgNo0" rename="Average Data Value" />
+            <SummarizeField field="DataValueAlt" action="Max" rename="Max Data Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="510" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Location" selected="True" Alignment="Right" />
+            <Field name="Topic" selected="True" Alignment="Right" />
+            <Field name="Question" selected="True" Alignment="Right" />
+            <Field name="Average Data Value" selected="True" Alignment="Right" />
+            <Field name="Max Data Value" selected="True" Alignment="Right" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_28056_ee3951d73f084545a5673ae81d4db45b_\Engine_19168_45790e48f63345f398947d042de48961_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="LocationAbbr" action="GroupBy" rename="Location" />
+            <SummarizeField field="Topic" action="GroupBy" rename="Topic" />
+            <SummarizeField field="DataValueAlt" action="AvgNo0" rename="Average Data Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="510" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False" />
+          <Width>100%</Width>
+          <ShowBarGraph value="True" />
+          <BarGraphField>Average Data Value</BarGraphField>
+          <TableFields orderChanged="False">
+            <Field name="Location" selected="True" Alignment="Right" />
+            <Field name="Topic" selected="True" Alignment="Right" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+            <Field name="Average Data Value" selected="False" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+            <Style Name="BarGraph" Width="100" Height="15" AutoScale="true" Min="0" Max="100" BaseValue="0" LabelBars="true" ColorMode="Single" TextColor="#b0c4de" BarPalette="#b30023,#00488c,#1e6c0b,#d84000,#f0b400,#332600,#5400a8,#434c43" BarFormula="&quot;Green&quot;" OutlineBars="true" OutlineColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_28056_ee3951d73f084545a5673ae81d4db45b_\Engine_19168_1c3ea0d7970540b5862811efbb44a877_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="126" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>YearEnd</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-01-30 13:13:59</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2021-01-30 13:13:59</StartDate>
+              <EndDate>2021-01-30 13:13:59</EndDate>
+              <Operand>2015</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[YearEnd] = 2015</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="YearEnd" selected="True" />
+            <SelectField field="LocationAbbr" selected="True" />
+            <SelectField field="Topic" selected="True" />
+            <SelectField field="Question" selected="True" />
+            <SelectField field="DataValueAlt" selected="True" />
+            <SelectField field="QuestionID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="LocationAbbr" action="GroupBy" rename="Location" />
+            <SummarizeField field="Topic" action="GroupBy" rename="Topic" />
+            <SummarizeField field="Question" action="GroupBy" rename="Question" />
+            <SummarizeField field="DataValueAlt" action="AvgNo0" rename="Average Data Value" />
+            <SummarizeField field="DataValueAlt" action="Min" rename="Min Data Value" />
+            <SummarizeField field="DataValueAlt" action="Max" rename="Max Data Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerTable.PortfolioComposerTable">
+        <Position x="510" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TableMode>Basic</TableMode>
+          <GroupingFields orderChanged="False">
+            <Field name="Location" />
+            <Field name="Topic" />
+            <Field name="Question" />
+          </GroupingFields>
+          <Width>100%</Width>
+          <ShowHeader value="True" />
+          <ShowBarGraph value="False" />
+          <TableFields orderChanged="False">
+            <Field name="Location" selected="True" Alignment="Right" />
+            <Field name="Topic" selected="True" Alignment="Right" />
+            <Field name="Question" selected="True" Alignment="Right" />
+            <Field name="Average Data Value" selected="True" Alignment="Right" />
+            <Field name="Min Data Value" selected="True" Alignment="Right" />
+            <Field name="Max Data Value" selected="True" Alignment="Right" />
+            <Field name="*Unknown" selected="True" Alignment="Right" />
+          </TableFields>
+          <TableStyles>
+            <Style Name="Data" Font="Arial" Size="8" TextColor="#000000" BackColor="#ffffff" AltColor="#f0f0f0" RowGroup="1" />
+            <Style Name="Header" Font="Arial" Size="10" TextColor="#000000" BackColor="#dbdbdb" />
+            <Style Name="Borders" Width="1" DataColor="#000000" HeaderColor="#000000" RowBorder="None" BasicColBorder="Default (Use Per Column Setting)" />
+            <Style Name="Table" CellPadding="0" ColumnPadding="0" TableBorder="true" Width="1" BorderColor="#000000" />
+          </TableStyles>
+          <StyleRules />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Basic Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTablePlugin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_28056_ee3951d73f084545a5673ae81d4db45b_\Engine_19168_05a9b470d98f42a68946b663d1252e59_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="822" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>scatter</type>
+              <mode>lines</mode>
+              <xsrc>Topic</xsrc>
+              <ysrc>Average Data Value</ysrc>
+              <line>
+                <width>2</width>
+              </line>
+            </Traces>
+            <Layout>
+              <title>
+                <text>
+                </text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+                <size>12</size>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>true</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>0</range>
+                <range>16</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Topic</text>
+                </title>
+                <tickfont>
+                  <size>12</size>
+                </tickfont>
+                <nticks>0</nticks>
+                <type>category</type>
+              </xaxis>
+              <yaxis>
+                <range>-388.13472681537695</range>
+                <range>7506.6032877530306</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Average Data Value</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+              <legend>
+                <font>
+                  <size>12</size>
+                </font>
+                <borderwidth>0</borderwidth>
+              </legend>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_28056_ee3951d73f084545a5673ae81d4db45b_\Engine_19168_de95aba1442647b99b91c00daf8632be_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="618" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Average Data Value" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Average Data Value - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="714" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>5</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="PlotlyCharting">
+        <Position x="822" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ChartingFields>
+            <Traces json:Array="true" xmlns:json="http://james.newtonking.com/projects/json">
+              <type>bar</type>
+              <mode>markers</mode>
+              <orientation>v</orientation>
+              <xsrc>Topic</xsrc>
+              <ysrc>Average Data Value</ysrc>
+              <name>Average Data Value by Topic</name>
+              <textposition>None</textposition>
+              <marker>
+                <line>
+                  <width>0</width>
+                </line>
+                <colorsrc>Average Data Value</colorsrc>
+                <color>7111.86638702461</color>
+                <color>3581.4887967644063</color>
+                <color>2813.436102661597</color>
+                <color>1910.6792152466371</color>
+                <color>1588.1714285714279</color>
+                <colorscale json:Array="true">
+                  <colorscale>0</colorscale>
+                  <colorscale>#f7fbff</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>0.125</colorscale>
+                  <colorscale>#deebf7</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>0.25</colorscale>
+                  <colorscale>#c6dbef</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>0.375</colorscale>
+                  <colorscale>#9ecae1</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>0.5</colorscale>
+                  <colorscale>#6baed6</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>0.625</colorscale>
+                  <colorscale>#4292c6</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>0.75</colorscale>
+                  <colorscale>#2171b5</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>0.875</colorscale>
+                  <colorscale>#08519c</colorscale>
+                </colorscale>
+                <colorscale json:Array="true">
+                  <colorscale>1</colorscale>
+                  <colorscale>#08306b</colorscale>
+                </colorscale>
+              </marker>
+              <autocolorscale>false</autocolorscale>
+            </Traces>
+            <Layout>
+              <title>
+                <text>
+                </text>
+              </title>
+              <font>
+                <family>sans-serif</family>
+              </font>
+              <autosize>false</autosize>
+              <width>700</width>
+              <height>849</height>
+              <showlegend>true</showlegend>
+              <hovermode>closest</hovermode>
+              <xaxis>
+                <range>-0.5</range>
+                <range>4.5</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Topic</text>
+                </title>
+                <type>category</type>
+              </xaxis>
+              <yaxis>
+                <range>0</range>
+                <range>7486.1751442364321</range>
+                <autorange>true</autorange>
+                <title>
+                  <text>Average Data Value</text>
+                </title>
+                <type>linear</type>
+              </yaxis>
+              <margin>
+                <pad>0</pad>
+                <t>100</t>
+                <b>80</b>
+                <l>80</l>
+                <r>80</r>
+              </margin>
+            </Layout>
+          </ChartingFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_28056_ee3951d73f084545a5673ae81d4db45b_\Engine_19168_cb4e1129739e4788b2778df186437c56_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="ReportHeader">
+        <Position x="918" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="HeaderText">Alteryx Report</Value>
+          <Value name="OutputFormat">yyyy-MM-dd hh:mm:ss</Value>
+          <Value name="Language">English</Value>
+          <Value name="IncludeDate">True</Value>
+          <Value name="ImageFile">
+          </Value>
+          <Value name="OwnLogo">false</Value>
+          <Value name="IncludeImage">True</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="ReportHeader\Supporting_Macros\RHEngine.yxmc" EngineDll="Macro" EngineDllEntryPoint="ReportHeader\Supporting_Macros\RHEngine.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings>
+        <Position x="990" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="CopyrightText">© [CurrentYear] Alteryx, Inc.  All rights reserved. Alteryx is a registered trademark of Alteryx, Inc.</Value>
+          <Value name="InfoText">Alteryx, Inc. - info@alteryx.com - &lt;Link www.alteryx.com|www.alteryx.com&gt;  - 888 836 4274</Value>
+          <Value name="PageNumbers">True</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="FooterMacro.yxmc" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+        <Position x="1074" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupingMode>PerRecord</GroupingMode>
+          <PreserveSourceFields value="False" />
+          <Orientation>H</Orientation>
+          <Separator>Continuous</Separator>
+          <Width>100%</Width>
+          <Height />
+          <BorderStyle Enabled="false" Color="#000000" Width="2" />
+          <SeparatorStyle Enabled="false" Color="#000000" Width="1" />
+          <Padding>0</Padding>
+          <LayoutFields orderChanged="False" />
+          <MergeIntoTable value="False" />
+          <SectionNameForGroup />
+          <SectionNameForAllRecords />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Horizontal Layout
+Each Individual Record</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="1182" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField />
+          <Separator>Continuous</Separator>
+          <EmbedDependencies value="False" />
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1146" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_28056_ee3951d73f084545a5673ae81d4db45b_\Engine_19168_e25466b4b39e49b8b0808535cca15aea_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="18" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data Table Example #1</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="294" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data Table Example #2</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="426" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data Table Example #3</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="YearEnd" selected="True" />
+            <SelectField field="LocationAbbr" selected="True" />
+            <SelectField field="Topic" selected="True" />
+            <SelectField field="Question" selected="True" />
+            <SelectField field="DataValueAlt" selected="True" />
+            <SelectField field="QuestionID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="534" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data Table Example #4</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="810" y="114" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Charting Example #1</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="810" y="198" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Charting Example #2</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Report Layout" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output13" />
+      <Destination ToolID="29" Connection="Report Layout" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Charting</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
