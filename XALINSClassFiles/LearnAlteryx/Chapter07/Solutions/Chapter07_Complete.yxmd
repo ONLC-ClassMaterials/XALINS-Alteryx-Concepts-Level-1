@@ -276,7 +276,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_15840_04dc17764fb14eeb9e9fb5ba1c413efd_\Engine_19168_087c5582ab8a4145a16c8a08beb650e3_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_24876_13ea1b88fb484d27afe0d523bce22b74_\Engine_26460_6bbfd81ae0454115833015a8fb3f776a_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -406,7 +406,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_15840_04dc17764fb14eeb9e9fb5ba1c413efd_\Engine_19168_8d3b2dca2ce84a538a381105f8d389be_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_24876_13ea1b88fb484d27afe0d523bce22b74_\Engine_26460_b58ae5bcd66c4d81866f034d00b6141a_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -488,7 +488,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_15840_04dc17764fb14eeb9e9fb5ba1c413efd_\Engine_19168_e646a81d5133414796e7ab7bbb04dd50_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_24876_13ea1b88fb484d27afe0d523bce22b74_\Engine_26460_73067ff9f072472c851fb00926e1748e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -636,7 +636,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_15840_04dc17764fb14eeb9e9fb5ba1c413efd_\Engine_19168_ad3253303b3e4f6d9e762317ac98ba60_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_24876_13ea1b88fb484d27afe0d523bce22b74_\Engine_26460_3d48ddd713aa45d1b5fd90507928b636_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -740,7 +740,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_15840_04dc17764fb14eeb9e9fb5ba1c413efd_\Engine_19168_7cf64b00144040238f0e45068ec418b8_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_24876_13ea1b88fb484d27afe0d523bce22b74_\Engine_26460_63061d7ad7cd483cbbd521ae284ab553_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -871,8 +871,8 @@
                 <family>sans-serif</family>
               </font>
               <autosize>false</autosize>
-              <width>700</width>
-              <height>849</height>
+              <width>698.4</width>
+              <height>684</height>
               <showlegend>true</showlegend>
               <hovermode>closest</hovermode>
               <xaxis>
@@ -886,7 +886,7 @@
               </xaxis>
               <yaxis>
                 <range>0</range>
-                <range>7486.1751442364321</range>
+                <range>7486.1751442364312</range>
                 <autorange>true</autorange>
                 <title>
                   <text>Average Data Value</text>
@@ -895,11 +895,12 @@
               </yaxis>
               <margin>
                 <pad>0</pad>
-                <t>100</t>
-                <b>80</b>
-                <l>80</l>
-                <r>80</r>
+                <t>100.8</t>
+                <b>79.2</b>
+                <l>79.2</l>
+                <r>79.2</r>
               </margin>
+              <ppi>72</ppi>
             </Layout>
           </ChartingFields>
         </Configuration>
@@ -917,7 +918,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_15840_04dc17764fb14eeb9e9fb5ba1c413efd_\Engine_19168_ec43d633b18a4d0a827a8f07a7dcabfc_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_24876_13ea1b88fb484d27afe0d523bce22b74_\Engine_26460_218018a41bdc4e29b174a253f464a7aa_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -949,7 +950,7 @@
           <Value name="OutputFormat">Month dd, yyyy</Value>
           <Value name="Language">English</Value>
           <Value name="IncludeDate">True</Value>
-          <Value name="ImageFile">C:\Users\Student\Pictures\onlc_logo.jpg</Value>
+          <Value name="ImageFile">C:\XALINSClassFiles\Resources\onlc_logo.jpg</Value>
           <Value name="OwnLogo">true</Value>
           <Value name="IncludeImage">True</Value>
         </Configuration>
@@ -988,7 +989,7 @@
           <GroupingMode>PerRecord</GroupingMode>
           <PreserveSourceFields value="False" />
           <Orientation>V</Orientation>
-          <Separator>Breaking</Separator>
+          <Separator>Continuous</Separator>
           <Width>100%</Width>
           <Height />
           <BorderStyle Enabled="false" Color="#000000" Width="2" />
@@ -1006,7 +1007,6 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Vertical Layout
-Section Breaks
 Each Individual Record</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -1051,7 +1051,7 @@ Each Individual Record</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_15840_04dc17764fb14eeb9e9fb5ba1c413efd_\Engine_19168_993f5fb3776440c9a7bd786bd299786a_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_24876_13ea1b88fb484d27afe0d523bce22b74_\Engine_26460_d73a9ce82d2e452e95ae58aae0b71250_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>

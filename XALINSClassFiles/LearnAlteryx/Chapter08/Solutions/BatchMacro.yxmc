@@ -6,6 +6,7 @@
         <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -15,7 +16,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="54" y="222" />
+        <Position x="54" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -65,12 +66,12 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="162" y="222" />
+        <Position x="162" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="[Number]*0.50" field="Result" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Number]*0.50" field="Result" size="8" type="Double" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -82,7 +83,7 @@
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Number" source="TextInput:" type="Int16" />
-            <Field name="Result" size="1073741823" source="Formula: [Number]*0.50" type="V_WString" />
+            <Field name="Result" source="Formula: [Number]*0.50" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -90,7 +91,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="270" y="222" />
+        <Position x="270" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -107,7 +108,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
-        <Position x="162" y="30" width="59" height="59" />
+        <Position x="162" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -120,7 +121,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="174" y="126" width="59" height="59" />
+        <Position x="174" y="150" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -235,7 +236,7 @@
             </Question>
             <Question>
               <Type>ControlParam</Type>
-              <Description>Control Parameter</Description>
+              <Description>Multiplier</Description>
               <Name>Control Parameter (5)</Name>
               <ToolId value="5" />
             </Question>
@@ -253,7 +254,7 @@
         <ControlParams>
           <ControlParam>
             <Name>Control Parameter (5)</Name>
-            <Description>Control Parameter</Description>
+            <Description>Multiplier</Description>
           </ControlParam>
         </ControlParams>
       </BatchMacro>

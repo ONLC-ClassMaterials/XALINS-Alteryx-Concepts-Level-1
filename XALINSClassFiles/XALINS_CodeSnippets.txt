@@ -179,7 +179,8 @@ p. 140
 
 p. 151
 
-[QuestionID] = "DIA10_0" && !IsNull ([DataValueAlt])
+[QuestionID] = "DIA10_0" 
+	&& !IsNull ([DataValueAlt])
 
 ***************************************************************************
 * Chapter 8: Using Macros in Workflows

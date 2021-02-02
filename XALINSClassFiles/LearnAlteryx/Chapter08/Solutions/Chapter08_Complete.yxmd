@@ -89,7 +89,7 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="3">
+    <Node ToolID="12">
       <GuiSettings>
         <Position x="282" y="90" />
       </GuiSettings>
@@ -100,7 +100,7 @@
           <Value name="Text Box (6)">0.25</Value>
         </Configuration>
         <Annotation DisplayMode="0">
-          <Name />
+          <Name>StandardMacro (3)</Name>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
@@ -113,7 +113,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_19944_cdc1fc9eff79480bb052c52efaf3bd38_\Engine_19168_44408a04ff0d477eb6bb60c188017702_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_31992_a7954f217ad748e8ac79e50b1f51c9c4_\Engine_26460_d978f7e03f324cfab7e2b57fa3234a51_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -155,7 +155,7 @@
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="7">
+    <Node ToolID="14">
       <GuiSettings>
         <Position x="282" y="210" />
       </GuiSettings>
@@ -176,41 +176,41 @@ Input=QuestionID
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="YearStart" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="YearEnd" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="LocationAbbr" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="LocationDesc" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="DataSource" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Topic" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Question" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Response" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="DataValueUnit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="DataValueType" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="DataValue" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Number" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Double" />
-            <Field name="DataValueFootnoteSymbol" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="DatavalueFootnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="LowConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="HighConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationCategory1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Stratification1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationCategory2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Stratification2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationCategory3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Stratification3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="GeoLocation" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="ResponseID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="LocationID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="TopicID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="QuestionID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="DataValueTypeID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationCategoryID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationCategoryID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationCategoryID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="StratificationID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
-            <Field name="Result" size="1073741823" source="Formula: [Number]*20 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_WString" />
+            <Field name="YearStart" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="YearEnd" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="LocationAbbr" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="LocationDesc" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="DataSource" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Topic" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Question" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Response" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="DataValueUnit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="DataValueType" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="DataValue" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Number" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Double" />
+            <Field name="DataValueFootnoteSymbol" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="DatavalueFootnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="LowConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="HighConfidenceLimit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationCategory1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Stratification1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationCategory2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Stratification2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationCategory3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Stratification3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="GeoLocation" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="ResponseID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="LocationID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="TopicID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="QuestionID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="DataValueTypeID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationCategoryID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationID1" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationCategoryID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationID2" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationCategoryID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="StratificationID3" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter08\U.S. Chronic Disease Indicators.csv (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: [Number]*20 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -250,7 +250,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_19944_cdc1fc9eff79480bb052c52efaf3bd38_\Engine_19168_7b0b1257b5a44f8ab47c1ba06a369371_.yxdb</TempFile>
+          <TempFile>C:\Users\Student\AppData\Local\Temp\Engine_31992_a7954f217ad748e8ac79e50b1f51c9c4_\Engine_26460_1776efbb1ff440cd9c862bef520641c4_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -300,22 +300,22 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="3" Connection="Input" />
+      <Destination ToolID="12" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="2" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
+      <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="8" Connection="Output" />
-      <Destination ToolID="7" Connection="Control" />
+      <Destination ToolID="14" Connection="Control" />
     </Connection>
     <Connection>
-      <Origin ToolID="3" Connection="Output" />
+      <Origin ToolID="12" Connection="Output" />
       <Destination ToolID="4" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="7" Connection="Output" />
+      <Origin ToolID="14" Connection="Output" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
   </Connections>

@@ -6,6 +6,7 @@
         <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -15,7 +16,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="78" y="234" />
+        <Position x="54" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -65,7 +66,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="210" y="234" />
+        <Position x="186" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -90,7 +91,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="330" y="234" />
+        <Position x="306" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -107,7 +108,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
-        <Position x="210" y="30" width="59" height="59" />
+        <Position x="186" y="54" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -120,7 +121,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
-        <Position x="222" y="126" width="59" height="59" />
+        <Position x="198" y="150" width="59" height="59" />
       </GuiSettings>
       <Properties>
         <Configuration />

@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="42" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -27,9 +27,6 @@
           <DefaultAnnotationText>U.S. Chronic Disease Indicators.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="YearStart" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter06\U.S. Chronic Disease Indicators.csv" type="V_String" />
@@ -73,7 +70,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="150" y="42" />
+        <Position x="150" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -163,7 +160,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="282" y="378" />
+        <Position x="282" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -189,7 +186,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="378" y="378" />
+        <Position x="378" y="390" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -207,7 +204,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="498" y="366" />
+        <Position x="498" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -238,7 +235,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="594" y="366" />
+        <Position x="594" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -270,7 +267,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="378" y="450" />
+        <Position x="378" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -287,9 +284,6 @@
 Query=`Sheet1$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="QuestionID" size="255" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter06\Survey Question Dates.xlsx|||`Sheet1$`" type="V_String" />
@@ -306,7 +300,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-        <Position x="702" y="366" />
+        <Position x="702" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -327,7 +321,7 @@ MM/dd/yyyy</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="798" y="366" />
+        <Position x="798" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -355,11 +349,11 @@ MM/dd/yyyy</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="690" y="342" width="84" height="24" />
+        <Position x="690" y="354" width="132" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Example #1</Text>
+          <Text>Date/String Example #1</Text>
           <Font name="Arial" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -375,7 +369,7 @@ MM/dd/yyyy</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-        <Position x="702" y="522" />
+        <Position x="702" y="534" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -396,11 +390,11 @@ yyyyMMdd</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="690" y="498" width="84" height="24" />
+        <Position x="690" y="510" width="132" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Example #2</Text>
+          <Text>Date/String Example #2</Text>
           <Font name="Arial" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -416,7 +410,7 @@ yyyyMMdd</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="798" y="522" />
+        <Position x="798" y="534" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -444,11 +438,11 @@ yyyyMMdd</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="690" y="666" width="84" height="24" />
+        <Position x="690" y="678" width="132" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Example #3</Text>
+          <Text>Date/String Example #3</Text>
           <Font name="Arial" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -464,7 +458,7 @@ yyyyMMdd</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-        <Position x="702" y="702" />
+        <Position x="702" y="714" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -485,7 +479,7 @@ day, dd Month, yyyy</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="798" y="702" />
+        <Position x="798" y="714" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -513,7 +507,7 @@ day, dd Month, yyyy</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="258" y="42" />
+        <Position x="258" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -539,7 +533,7 @@ day, dd Month, yyyy</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="366" y="42" />
+        <Position x="366" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -574,7 +568,7 @@ day, dd Month, yyyy</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="42" />
+        <Position x="462" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -599,6 +593,26 @@ day, dd Month, yyyy</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="330" y="30" width="132" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>RegEx Example #1</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
     </Node>
   </Nodes>
   <Connections>

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="FirstName" />
+            <Field name="LastName" />
+            <Field name="EmailAddress" />
+          </Fields>
+          <Data>
+            <r>
+              <c>John</c>
+              <c>Smith</c>
+              <c>thedoctor@tardis.universe</c>
+            </r>
+            <r>
+              <c>Martha</c>
+              <c>Jones</c>
+              <c>drjones@earth.universe</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Florida Local Data for Better Health.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Year" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="StateAbbr" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="StateDesc" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="CityName" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="GeographicLevel" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="DataSource" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="UniqueID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Measure" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Data_Value_Unit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="DataValueTypeID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Data_Value_Type" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Data_Value" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Low_Confidence_Limit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="High_Confidence_Limit" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Data_Value_Footnote_Symbol" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Data_Value_Footnote" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="PopulationCount" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="GeoLocation" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="CategoryID" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="MeasureId" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="CityFIPS" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="TractFIPS" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+            <Field name="Short_Question_Text" size="254" source="File: C:\XALINSClassFiles\LearnAlteryx\Chapter02\Florida Local Data for Better Health.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ConnectToData</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
