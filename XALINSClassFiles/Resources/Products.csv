@@ -1,0 +1,296 @@
+Name,MakeFlag,FinishedGoodsFlag,Color,StandardCost,ListPrice,Size,ProductSubcategoryID,R_ProductSubcategoryID,Subcategory
+"Mountain-100 Silver, 38",True,True,Silver,1912.1544,3399.99,38,1,1,Mountain Bikes
+"Mountain-100 Silver, 42",True,True,Silver,1912.1544,3399.99,42,1,1,Mountain Bikes
+"Mountain-100 Silver, 44",True,True,Silver,1912.1544,3399.99,44,1,1,Mountain Bikes
+"Mountain-100 Silver, 48",True,True,Silver,1912.1544,3399.99,48,1,1,Mountain Bikes
+"Mountain-100 Black, 38",True,True,Black,1898.0944,3374.99,38,1,1,Mountain Bikes
+"Mountain-100 Black, 42",True,True,Black,1898.0944,3374.99,42,1,1,Mountain Bikes
+"Mountain-100 Black, 44",True,True,Black,1898.0944,3374.99,44,1,1,Mountain Bikes
+"Mountain-100 Black, 48",True,True,Black,1898.0944,3374.99,48,1,1,Mountain Bikes
+"Mountain-200 Silver, 38",True,True,Silver,1265.6195,2319.99,38,1,1,Mountain Bikes
+"Mountain-200 Silver, 42",True,True,Silver,1265.6195,2319.99,42,1,1,Mountain Bikes
+"Mountain-200 Silver, 46",True,True,Silver,1265.6195,2319.99,46,1,1,Mountain Bikes
+"Mountain-200 Black, 38",True,True,Black,1251.9813,2294.99,38,1,1,Mountain Bikes
+"Mountain-200 Black, 42",True,True,Black,1251.9813,2294.99,42,1,1,Mountain Bikes
+"Mountain-200 Black, 46",True,True,Black,1251.9813,2294.99,46,1,1,Mountain Bikes
+"Mountain-300 Black, 38",True,True,Black,598.4354,1079.99,38,1,1,Mountain Bikes
+"Mountain-300 Black, 40",True,True,Black,598.4354,1079.99,40,1,1,Mountain Bikes
+"Mountain-300 Black, 44",True,True,Black,598.4354,1079.99,44,1,1,Mountain Bikes
+"Mountain-300 Black, 48",True,True,Black,598.4354,1079.99,48,1,1,Mountain Bikes
+"Mountain-400-W Silver, 38",True,True,Silver,419.7784,769.49,38,1,1,Mountain Bikes
+"Mountain-400-W Silver, 40",True,True,Silver,419.7784,769.49,40,1,1,Mountain Bikes
+"Mountain-400-W Silver, 42",True,True,Silver,419.7784,769.49,42,1,1,Mountain Bikes
+"Mountain-400-W Silver, 46",True,True,Silver,419.7784,769.49,46,1,1,Mountain Bikes
+"Mountain-500 Silver, 40",True,True,Silver,308.2179,564.99,40,1,1,Mountain Bikes
+"Mountain-500 Silver, 42",True,True,Silver,308.2179,564.99,42,1,1,Mountain Bikes
+"Mountain-500 Silver, 44",True,True,Silver,308.2179,564.99,44,1,1,Mountain Bikes
+"Mountain-500 Silver, 48",True,True,Silver,308.2179,564.99,48,1,1,Mountain Bikes
+"Mountain-500 Silver, 52",True,True,Silver,308.2179,564.99,52,1,1,Mountain Bikes
+"Mountain-500 Black, 40",True,True,Black,294.5797,539.99,40,1,1,Mountain Bikes
+"Mountain-500 Black, 42",True,True,Black,294.5797,539.99,42,1,1,Mountain Bikes
+"Mountain-500 Black, 44",True,True,Black,294.5797,539.99,44,1,1,Mountain Bikes
+"Mountain-500 Black, 48",True,True,Black,294.5797,539.99,48,1,1,Mountain Bikes
+"Mountain-500 Black, 52",True,True,Black,294.5797,539.99,52,1,1,Mountain Bikes
+"Road-350-W Yellow, 40",True,True,Yellow,1082.51,1700.99,40,2,2,Road Bikes
+"Road-350-W Yellow, 42",True,True,Yellow,1082.51,1700.99,42,2,2,Road Bikes
+"Road-350-W Yellow, 44",True,True,Yellow,1082.51,1700.99,44,2,2,Road Bikes
+"Road-350-W Yellow, 48",True,True,Yellow,1082.51,1700.99,48,2,2,Road Bikes
+"Road-750 Black, 58",True,True,Black,343.6496,539.99,58,2,2,Road Bikes
+"Road-750 Black, 44",True,True,Black,343.6496,539.99,44,2,2,Road Bikes
+"Road-750 Black, 48",True,True,Black,343.6496,539.99,48,2,2,Road Bikes
+"Road-750 Black, 52",True,True,Black,343.6496,539.99,52,2,2,Road Bikes
+"Road-250 Red, 44",True,True,Red,1518.7864,2443.35,44,2,2,Road Bikes
+"Road-250 Red, 48",True,True,Red,1518.7864,2443.35,48,2,2,Road Bikes
+"Road-250 Red, 52",True,True,Red,1518.7864,2443.35,52,2,2,Road Bikes
+"Road-250 Red, 58",True,True,Red,1554.9479,2443.35,58,2,2,Road Bikes
+"Road-250 Black, 44",True,True,Black,1554.9479,2443.35,44,2,2,Road Bikes
+"Road-250 Black, 48",True,True,Black,1554.9479,2443.35,48,2,2,Road Bikes
+"Road-250 Black, 52",True,True,Black,1554.9479,2443.35,52,2,2,Road Bikes
+"Road-250 Black, 58",True,True,Black,1554.9479,2443.35,58,2,2,Road Bikes
+"Road-550-W Yellow, 38",True,True,Yellow,713.0798,1120.49,38,2,2,Road Bikes
+"Road-550-W Yellow, 40",True,True,Yellow,713.0798,1120.49,40,2,2,Road Bikes
+"Road-550-W Yellow, 42",True,True,Yellow,713.0798,1120.49,42,2,2,Road Bikes
+"Road-550-W Yellow, 44",True,True,Yellow,713.0798,1120.49,44,2,2,Road Bikes
+"Road-550-W Yellow, 48",True,True,Yellow,713.0798,1120.49,48,2,2,Road Bikes
+"Road-150 Red, 62",True,True,Red,2171.2942,3578.27,62,2,2,Road Bikes
+"Road-150 Red, 44",True,True,Red,2171.2942,3578.27,44,2,2,Road Bikes
+"Road-150 Red, 48",True,True,Red,2171.2942,3578.27,48,2,2,Road Bikes
+"Road-150 Red, 52",True,True,Red,2171.2942,3578.27,52,2,2,Road Bikes
+"Road-150 Red, 56",True,True,Red,2171.2942,3578.27,56,2,2,Road Bikes
+"Road-450 Red, 58",True,True,Red,884.7083,1457.99,58,2,2,Road Bikes
+"Road-450 Red, 60",True,True,Red,884.7083,1457.99,60,2,2,Road Bikes
+"Road-450 Red, 44",True,True,Red,884.7083,1457.99,44,2,2,Road Bikes
+"Road-450 Red, 48",True,True,Red,884.7083,1457.99,48,2,2,Road Bikes
+"Road-450 Red, 52",True,True,Red,884.7083,1457.99,52,2,2,Road Bikes
+"Road-650 Red, 58",True,True,Red,486.7066,782.99,58,2,2,Road Bikes
+"Road-650 Red, 60",True,True,Red,486.7066,782.99,60,2,2,Road Bikes
+"Road-650 Red, 62",True,True,Red,486.7066,782.99,62,2,2,Road Bikes
+"Road-650 Red, 44",True,True,Red,486.7066,782.99,44,2,2,Road Bikes
+"Road-650 Red, 48",True,True,Red,486.7066,782.99,48,2,2,Road Bikes
+"Road-650 Red, 52",True,True,Red,486.7066,782.99,52,2,2,Road Bikes
+"Road-650 Black, 58",True,True,Black,486.7066,782.99,58,2,2,Road Bikes
+"Road-650 Black, 60",True,True,Black,486.7066,782.99,60,2,2,Road Bikes
+"Road-650 Black, 62",True,True,Black,486.7066,782.99,62,2,2,Road Bikes
+"Road-650 Black, 44",True,True,Black,486.7066,782.99,44,2,2,Road Bikes
+"Road-650 Black, 48",True,True,Black,486.7066,782.99,48,2,2,Road Bikes
+"Road-650 Black, 52",True,True,Black,486.7066,782.99,52,2,2,Road Bikes
+"Touring-3000 Blue, 44",True,True,Blue,461.4448,742.35,44,3,3,Touring Bikes
+"Touring-3000 Blue, 50",True,True,Blue,461.4448,742.35,50,3,3,Touring Bikes
+"Touring-2000 Blue, 60",True,True,Blue,755.1508,1214.85,60,3,3,Touring Bikes
+"Touring-1000 Yellow, 46",True,True,Yellow,1481.9379,2384.07,46,3,3,Touring Bikes
+"Touring-1000 Yellow, 50",True,True,Yellow,1481.9379,2384.07,50,3,3,Touring Bikes
+"Touring-1000 Yellow, 54",True,True,Yellow,1481.9379,2384.07,54,3,3,Touring Bikes
+"Touring-1000 Yellow, 60",True,True,Yellow,1481.9379,2384.07,60,3,3,Touring Bikes
+"Touring-3000 Blue, 54",True,True,Blue,461.4448,742.35,54,3,3,Touring Bikes
+"Touring-3000 Blue, 58",True,True,Blue,461.4448,742.35,58,3,3,Touring Bikes
+"Touring-3000 Blue, 62",True,True,Blue,461.4448,742.35,62,3,3,Touring Bikes
+"Touring-3000 Yellow, 44",True,True,Yellow,461.4448,742.35,44,3,3,Touring Bikes
+"Touring-3000 Yellow, 50",True,True,Yellow,461.4448,742.35,50,3,3,Touring Bikes
+"Touring-3000 Yellow, 54",True,True,Yellow,461.4448,742.35,54,3,3,Touring Bikes
+"Touring-3000 Yellow, 58",True,True,Yellow,461.4448,742.35,58,3,3,Touring Bikes
+"Touring-3000 Yellow, 62",True,True,Yellow,461.4448,742.35,62,3,3,Touring Bikes
+"Touring-1000 Blue, 46",True,True,Blue,1481.9379,2384.07,46,3,3,Touring Bikes
+"Touring-1000 Blue, 50",True,True,Blue,1481.9379,2384.07,50,3,3,Touring Bikes
+"Touring-1000 Blue, 54",True,True,Blue,1481.9379,2384.07,54,3,3,Touring Bikes
+"Touring-1000 Blue, 60",True,True,Blue,1481.9379,2384.07,60,3,3,Touring Bikes
+"Touring-2000 Blue, 46",True,True,Blue,755.1508,1214.85,46,3,3,Touring Bikes
+"Touring-2000 Blue, 50",True,True,Blue,755.1508,1214.85,50,3,3,Touring Bikes
+"Touring-2000 Blue, 54",True,True,Blue,755.1508,1214.85,54,3,3,Touring Bikes
+LL Touring Handlebars,True,True,,20.464,46.09,,4,4,Handlebars
+HL Touring Handlebars,True,True,,40.6571,91.57,,4,4,Handlebars
+LL Mountain Handlebars,True,True,,19.7758,44.54,,4,4,Handlebars
+ML Mountain Handlebars,True,True,,27.4925,61.92,,4,4,Handlebars
+HL Mountain Handlebars,True,True,,53.3999,120.27,,4,4,Handlebars
+LL Road Handlebars,True,True,,19.7758,44.54,,4,4,Handlebars
+ML Road Handlebars,True,True,,27.4925,61.92,,4,4,Handlebars
+HL Road Handlebars,True,True,,53.3999,120.27,,4,4,Handlebars
+LL Bottom Bracket,True,True,,23.9716,53.99,,5,5,Bottom Brackets
+ML Bottom Bracket,True,True,,44.9506,101.24,,5,5,Bottom Brackets
+HL Bottom Bracket,True,True,,53.9416,121.49,,5,5,Bottom Brackets
+Front Brakes,False,True,Silver,47.286,106.5,,6,6,Brakes
+Rear Brakes,False,True,Silver,47.286,106.5,,6,6,Brakes
+Chain,False,True,Silver,8.9866,20.24,,7,7,Chains
+LL Crankset,True,True,Black,77.9176,175.49,,8,8,Cranksets
+ML Crankset,True,True,Black,113.8816,256.49,,8,8,Cranksets
+HL Crankset,True,True,Black,179.8156,404.99,,8,8,Cranksets
+Front Derailleur,True,True,Silver,40.6216,91.49,,9,9,Derailleurs
+Rear Derailleur,True,True,Silver,53.9282,121.46,,9,9,Derailleurs
+LL Fork,True,True,,65.8097,148.22,,10,10,Forks
+ML Fork,True,True,,77.9176,175.49,,10,10,Forks
+HL Fork,True,True,,101.8936,229.49,,10,10,Forks
+LL Headset,True,True,,15.1848,34.2,,11,11,Headsets
+ML Headset,True,True,,45.4168,102.29,,11,11,Headsets
+HL Headset,True,True,,55.3801,124.73,,11,11,Headsets
+"HL Mountain Frame - Silver, 42",True,True,Silver,747.2002,1364.5,42,12,12,Mountain Frames
+"HL Mountain Frame - Silver, 44",True,True,Silver,706.811,1364.5,44,12,12,Mountain Frames
+"HL Mountain Frame - Silver, 48",True,True,Silver,706.811,1364.5,48,12,12,Mountain Frames
+"HL Mountain Frame - Silver, 46",True,True,Silver,747.2002,1364.5,46,12,12,Mountain Frames
+"HL Mountain Frame - Black, 42",True,True,Black,739.041,1349.6,42,12,12,Mountain Frames
+"HL Mountain Frame - Black, 44",True,True,Black,699.0928,1349.6,44,12,12,Mountain Frames
+"HL Mountain Frame - Black, 48",True,True,Black,699.0928,1349.6,48,12,12,Mountain Frames
+"HL Mountain Frame - Black, 46",True,True,Black,739.041,1349.6,46,12,12,Mountain Frames
+"HL Mountain Frame - Black, 38",True,True,Black,739.041,1349.6,38,12,12,Mountain Frames
+"HL Mountain Frame - Silver, 38",True,True,Silver,747.2002,1364.5,38,12,12,Mountain Frames
+"ML Mountain Frame - Black, 38",True,True,Black,185.8193,348.76,38,12,12,Mountain Frames
+"ML Mountain Frame - Black, 40",True,True,Black,185.8193,348.76,40,12,12,Mountain Frames
+"ML Mountain Frame - Black, 44",True,True,Black,185.8193,348.76,44,12,12,Mountain Frames
+"ML Mountain Frame - Black, 48",True,True,Black,185.8193,348.76,48,12,12,Mountain Frames
+"LL Mountain Frame - Silver, 42",True,True,Silver,144.5938,264.05,42,12,12,Mountain Frames
+"LL Mountain Frame - Silver, 44",True,True,Silver,144.5938,264.05,44,12,12,Mountain Frames
+"LL Mountain Frame - Silver, 48",True,True,Silver,144.5938,264.05,48,12,12,Mountain Frames
+"LL Mountain Frame - Silver, 52",True,True,Silver,144.5938,264.05,52,12,12,Mountain Frames
+"LL Mountain Frame - Black, 42",True,True,Black,136.785,249.79,42,12,12,Mountain Frames
+"LL Mountain Frame - Black, 44",True,True,Black,136.785,249.79,44,12,12,Mountain Frames
+"LL Mountain Frame - Black, 48",True,True,Black,136.785,249.79,48,12,12,Mountain Frames
+"LL Mountain Frame - Black, 52",True,True,Black,136.785,249.79,52,12,12,Mountain Frames
+"ML Mountain Frame-W - Silver, 40",True,True,Silver,199.3757,364.09,40,12,12,Mountain Frames
+"ML Mountain Frame-W - Silver, 42",True,True,Silver,199.3757,364.09,42,12,12,Mountain Frames
+"ML Mountain Frame-W - Silver, 46",True,True,Silver,199.3757,364.09,46,12,12,Mountain Frames
+"ML Mountain Frame-W - Silver, 38",True,True,Silver,199.3757,364.09,38,12,12,Mountain Frames
+"LL Mountain Frame - Black, 40",True,True,Black,136.785,249.79,40,12,12,Mountain Frames
+"LL Mountain Frame - Silver, 40",True,True,Silver,144.5938,264.05,40,12,12,Mountain Frames
+LL Mountain Pedal,False,True,Silver/Black,17.9776,40.49,,13,13,Pedals
+ML Mountain Pedal,False,True,Silver/Black,27.568,62.09,,13,13,Pedals
+HL Mountain Pedal,False,True,Silver/Black,35.9596,80.99,,13,13,Pedals
+LL Road Pedal,False,True,Silver/Black,17.9776,40.49,,13,13,Pedals
+ML Road Pedal,False,True,Silver/Black,27.568,62.09,,13,13,Pedals
+HL Road Pedal,False,True,Silver/Black,35.9596,80.99,,13,13,Pedals
+Touring Pedal,False,True,Silver/Black,35.9596,80.99,,13,13,Pedals
+"ML Road Frame-W - Yellow, 40",True,True,Yellow,360.9428,594.83,40,14,14,Road Frames
+"ML Road Frame-W - Yellow, 42",True,True,Yellow,360.9428,594.83,42,14,14,Road Frames
+"ML Road Frame-W - Yellow, 44",True,True,Yellow,360.9428,594.83,44,14,14,Road Frames
+"ML Road Frame-W - Yellow, 48",True,True,Yellow,360.9428,594.83,48,14,14,Road Frames
+"HL Road Frame - Black, 62",True,True,Black,868.6342,1431.5,62,14,14,Road Frames
+"HL Road Frame - Black, 44",True,True,Black,868.6342,1431.5,44,14,14,Road Frames
+"HL Road Frame - Black, 48",True,True,Black,868.6342,1431.5,48,14,14,Road Frames
+"HL Road Frame - Black, 52",True,True,Black,868.6342,1431.5,52,14,14,Road Frames
+"ML Road Frame-W - Yellow, 38",True,True,Yellow,360.9428,594.83,38,14,14,Road Frames
+"HL Road Frame - Black, 58",True,True,Black,1059.31,1431.5,58,14,14,Road Frames
+"HL Road Frame - Red, 58",True,True,Red,1059.31,1431.5,58,14,14,Road Frames
+"HL Road Frame - Red, 62",True,True,Red,868.6342,1431.5,62,14,14,Road Frames
+"HL Road Frame - Red, 44",True,True,Red,868.6342,1431.5,44,14,14,Road Frames
+"HL Road Frame - Red, 48",True,True,Red,868.6342,1431.5,48,14,14,Road Frames
+"HL Road Frame - Red, 52",True,True,Red,868.6342,1431.5,52,14,14,Road Frames
+"HL Road Frame - Red, 56",True,True,Red,868.6342,1431.5,56,14,14,Road Frames
+"LL Road Frame - Black, 58",True,True,Black,204.6251,337.22,58,14,14,Road Frames
+"LL Road Frame - Black, 60",True,True,Black,204.6251,337.22,60,14,14,Road Frames
+"LL Road Frame - Black, 62",True,True,Black,204.6251,337.22,62,14,14,Road Frames
+"LL Road Frame - Red, 44",True,True,Red,187.1571,337.22,44,14,14,Road Frames
+"LL Road Frame - Red, 48",True,True,Red,187.1571,337.22,48,14,14,Road Frames
+"LL Road Frame - Red, 52",True,True,Red,187.1571,337.22,52,14,14,Road Frames
+"LL Road Frame - Red, 58",True,True,Red,187.1571,337.22,58,14,14,Road Frames
+"LL Road Frame - Red, 60",True,True,Red,187.1571,337.22,60,14,14,Road Frames
+"LL Road Frame - Red, 62",True,True,Red,187.1571,337.22,62,14,14,Road Frames
+"ML Road Frame - Red, 44",True,True,Red,352.1394,594.83,44,14,14,Road Frames
+"ML Road Frame - Red, 48",True,True,Red,352.1394,594.83,48,14,14,Road Frames
+"ML Road Frame - Red, 52",True,True,Red,352.1394,594.83,52,14,14,Road Frames
+"ML Road Frame - Red, 58",True,True,Red,352.1394,594.83,58,14,14,Road Frames
+"ML Road Frame - Red, 60",True,True,Red,352.1394,594.83,60,14,14,Road Frames
+"LL Road Frame - Black, 44",True,True,Black,204.6251,337.22,44,14,14,Road Frames
+"LL Road Frame - Black, 48",True,True,Black,204.6251,337.22,48,14,14,Road Frames
+"LL Road Frame - Black, 52",True,True,Black,204.6251,337.22,52,14,14,Road Frames
+LL Mountain Seat/Saddle,False,True,,12.0413,27.12,,15,15,Saddles
+ML Mountain Seat/Saddle,False,True,,17.3782,39.14,,15,15,Saddles
+HL Mountain Seat/Saddle,False,True,,23.3722,52.64,,15,15,Saddles
+LL Road Seat/Saddle,False,True,,12.0413,27.12,,15,15,Saddles
+ML Road Seat/Saddle,False,True,,17.3782,39.14,,15,15,Saddles
+HL Road Seat/Saddle,False,True,,23.3722,52.64,,15,15,Saddles
+LL Touring Seat/Saddle,False,True,,12.0413,27.12,,15,15,Saddles
+ML Touring Seat/Saddle,False,True,,17.3782,39.14,,15,15,Saddles
+HL Touring Seat/Saddle,False,True,,23.3722,52.64,,15,15,Saddles
+"LL Touring Frame - Blue, 50",True,True,Blue,199.8519,333.42,50,16,16,Touring Frames
+"LL Touring Frame - Blue, 54",True,True,Blue,199.8519,333.42,54,16,16,Touring Frames
+"LL Touring Frame - Blue, 58",True,True,Blue,199.8519,333.42,58,16,16,Touring Frames
+"LL Touring Frame - Blue, 62",True,True,Blue,199.8519,333.42,62,16,16,Touring Frames
+"LL Touring Frame - Yellow, 44",True,True,Yellow,199.8519,333.42,44,16,16,Touring Frames
+"LL Touring Frame - Yellow, 50",True,True,Yellow,199.8519,333.42,50,16,16,Touring Frames
+"LL Touring Frame - Yellow, 54",True,True,Yellow,199.8519,333.42,54,16,16,Touring Frames
+"LL Touring Frame - Yellow, 58",True,True,Yellow,199.8519,333.42,58,16,16,Touring Frames
+"LL Touring Frame - Blue, 44",True,True,Blue,199.8519,333.42,44,16,16,Touring Frames
+"HL Touring Frame - Yellow, 60",True,True,Yellow,601.7437,1003.91,60,16,16,Touring Frames
+"LL Touring Frame - Yellow, 62",True,True,Yellow,199.8519,333.42,62,16,16,Touring Frames
+"HL Touring Frame - Yellow, 46",True,True,Yellow,601.7437,1003.91,46,16,16,Touring Frames
+"HL Touring Frame - Yellow, 50",True,True,Yellow,601.7437,1003.91,50,16,16,Touring Frames
+"HL Touring Frame - Yellow, 54",True,True,Yellow,601.7437,1003.91,54,16,16,Touring Frames
+"HL Touring Frame - Blue, 46",True,True,Blue,601.7437,1003.91,46,16,16,Touring Frames
+"HL Touring Frame - Blue, 50",True,True,Blue,601.7437,1003.91,50,16,16,Touring Frames
+"HL Touring Frame - Blue, 54",True,True,Blue,601.7437,1003.91,54,16,16,Touring Frames
+"HL Touring Frame - Blue, 60",True,True,Blue,601.7437,1003.91,60,16,16,Touring Frames
+LL Mountain Rear Wheel,True,True,Black,38.9588,87.745,,17,17,Wheels
+ML Mountain Rear Wheel,True,True,Black,104.7951,236.025,,17,17,Wheels
+HL Mountain Rear Wheel,True,True,Black,145.2835,327.215,,17,17,Wheels
+LL Road Rear Wheel,True,True,Black,49.9789,112.565,,17,17,Wheels
+ML Road Rear Wheel,True,True,Black,122.2709,275.385,,17,17,Wheels
+HL Road Rear Wheel,True,True,Black,158.5346,357.06,,17,17,Wheels
+Touring Rear Wheel,True,True,Black,108.7844,245.01,,17,17,Wheels
+LL Mountain Front Wheel,True,True,Black,26.9708,60.745,,17,17,Wheels
+ML Mountain Front Wheel,True,True,Black,92.8071,209.025,,17,17,Wheels
+HL Mountain Front Wheel,True,True,Black,133.2955,300.215,,17,17,Wheels
+LL Road Front Wheel,True,True,Black,37.9909,85.565,,17,17,Wheels
+ML Road Front Wheel,True,True,Black,110.2829,248.385,,17,17,Wheels
+HL Road Front Wheel,True,True,Black,146.5466,330.06,,17,17,Wheels
+Touring Front Wheel,True,True,Black,96.7964,218.01,,17,17,Wheels
+"Men's Bib-Shorts, S",False,True,Multi,37.1209,89.99,S,18,18,Bib-Shorts
+"Men's Bib-Shorts, M",False,True,Multi,37.1209,89.99,M,18,18,Bib-Shorts
+"Men's Bib-Shorts, L",False,True,Multi,37.1209,89.99,L,18,18,Bib-Shorts
+AWC Logo Cap,False,True,Multi,6.9223,8.99,,19,19,Caps
+"Half-Finger Gloves, S",False,True,Black,9.1593,24.49,S,20,20,Gloves
+"Half-Finger Gloves, M",False,True,Black,9.1593,24.49,M,20,20,Gloves
+"Half-Finger Gloves, L",False,True,Black,9.1593,24.49,L,20,20,Gloves
+"Full-Finger Gloves, S",False,True,Black,15.6709,37.99,S,20,20,Gloves
+"Full-Finger Gloves, M",False,True,Black,15.6709,37.99,M,20,20,Gloves
+"Full-Finger Gloves, L",False,True,Black,15.6709,37.99,L,20,20,Gloves
+"Long-Sleeve Logo Jersey, S",False,True,Multi,38.4923,49.99,S,21,21,Jerseys
+"Long-Sleeve Logo Jersey, M",False,True,Multi,38.4923,49.99,M,21,21,Jerseys
+"Long-Sleeve Logo Jersey, L",False,True,Multi,38.4923,49.99,L,21,21,Jerseys
+"Long-Sleeve Logo Jersey, XL",False,True,Multi,38.4923,49.99,XL,21,21,Jerseys
+"Short-Sleeve Classic Jersey, S",False,True,Yellow,41.5723,53.99,S,21,21,Jerseys
+"Short-Sleeve Classic Jersey, M",False,True,Yellow,41.5723,53.99,M,21,21,Jerseys
+"Short-Sleeve Classic Jersey, L",False,True,Yellow,41.5723,53.99,L,21,21,Jerseys
+"Short-Sleeve Classic Jersey, XL",False,True,Yellow,41.5723,53.99,XL,21,21,Jerseys
+"Men's Sports Shorts, S",False,True,Black,24.7459,59.99,S,22,22,Shorts
+"Men's Sports Shorts, M",False,True,Black,24.7459,59.99,M,22,22,Shorts
+"Men's Sports Shorts, L",False,True,Black,24.7459,59.99,L,22,22,Shorts
+"Men's Sports Shorts, XL",False,True,Black,24.7459,59.99,XL,22,22,Shorts
+"Women's Mountain Shorts, S",False,True,Black,26.1763,69.99,S,22,22,Shorts
+"Women's Mountain Shorts, M",False,True,Black,26.1763,69.99,M,22,22,Shorts
+"Women's Mountain Shorts, L",False,True,Black,26.1763,69.99,L,22,22,Shorts
+"Mountain Bike Socks, M",False,True,White,3.3963,9.5,M,23,23,Socks
+"Mountain Bike Socks, L",False,True,White,3.3963,9.5,L,23,23,Socks
+"Racing Socks, M",False,True,White,3.3623,8.99,M,23,23,Socks
+"Racing Socks, L",False,True,White,3.3623,8.99,L,23,23,Socks
+"Women's Tights, S",False,True,Black,30.9334,74.99,S,24,24,Tights
+"Women's Tights, M",False,True,Black,30.9334,74.99,M,24,24,Tights
+"Women's Tights, L",False,True,Black,30.9334,74.99,L,24,24,Tights
+"Classic Vest, S",False,True,Blue,23.749,63.5,S,25,25,Vests
+"Classic Vest, M",False,True,Blue,23.749,63.5,M,25,25,Vests
+"Classic Vest, L",False,True,Blue,23.749,63.5,L,25,25,Vests
+Hitch Rack - 4-Bike,False,True,,44.88,120,,26,26,Bike Racks
+All-Purpose Bike Stand,False,True,,59.466,159,,27,27,Bike Stands
+Water Bottle - 30 oz.,False,True,,1.8663,4.99,,28,28,Bottles and Cages
+Mountain Bottle Cage,False,True,,3.7363,9.99,,28,28,Bottles and Cages
+Road Bottle Cage,False,True,,3.3623,8.99,,28,28,Bottles and Cages
+Bike Wash - Dissolver,False,True,,2.9733,7.95,,29,29,Cleaners
+Fender Set - Mountain,False,True,,8.2205,21.98,,30,30,Fenders
+"Sport-100 Helmet, Blue",False,True,Blue,13.0863,34.99,,31,31,Helmets
+"Sport-100 Helmet, Red",False,True,Red,13.0863,34.99,,31,31,Helmets
+"Sport-100 Helmet, Black",False,True,Black,13.0863,34.99,,31,31,Helmets
+Hydration Pack - 70 oz.,False,True,Silver,20.5663,54.99,70,32,32,Hydration Packs
+Taillights - Battery-Powered,False,True,,5.7709,13.99,,33,33,Lights
+Headlights - Dual-Beam,False,True,,14.4334,34.99,,33,33,Lights
+Headlights - Weatherproof,False,True,,18.5584,44.99,,33,33,Lights
+Cable Lock,False,True,,10.3125,25,,34,34,Locks
+"Touring-Panniers, Large",False,True,Grey,51.5625,125,,35,35,Panniers
+Minipump,False,True,,8.2459,19.99,,36,36,Pumps
+Mountain Pump,False,True,,10.3084,24.99,,36,36,Pumps
+Patch Kit/8 Patches,False,True,,0.8565,2.29,,37,37,Tires and Tubes
+Mountain Tire Tube,False,True,,1.8663,4.99,,37,37,Tires and Tubes
+Road Tire Tube,False,True,,1.4923,3.99,,37,37,Tires and Tubes
+Touring Tire Tube,False,True,,1.8663,4.99,,37,37,Tires and Tubes
+LL Mountain Tire,False,True,,9.3463,24.99,,37,37,Tires and Tubes
+ML Mountain Tire,False,True,,11.2163,29.99,,37,37,Tires and Tubes
+HL Mountain Tire,False,True,,13.09,35,,37,37,Tires and Tubes
+LL Road Tire,False,True,,8.0373,21.49,,37,37,Tires and Tubes
+ML Road Tire,False,True,,9.3463,24.99,,37,37,Tires and Tubes
+HL Road Tire,False,True,,12.1924,32.6,,37,37,Tires and Tubes
+Touring Tire,False,True,,10.8423,28.99,,37,37,Tires and Tubes
